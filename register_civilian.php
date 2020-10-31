@@ -33,21 +33,22 @@ else {
         $_SESSION['logged_in'] = true;
         
         $_SESSION['message'] = 
-                    "Confirmation link has been sent to $email, please verify your account by clicking on the link in the message.";
+                    "Confirmation link has been sent to $email, please verify your account by clicking on the link in the message.\n
+                    If you don't find the email in your inbox, please check your spam folder. smh.";
     
         $to = $email;
-        $subject = 'Account Verification (<Web App URL>)';
+        $subject = 'Account Verification (Anti-dote)';
         $message_body = '
         Hello '.$first_name.',
         Thank You for signing up!
         Please click this link to activate your account:
 
-        http://localhost/verify.php?email='.$email.'&hash='.$hash.'&police=0';
+        https://www.createchrisvk.in/antidote/verify.php?email='.$email.'&hash='.$hash.'&police=0';
 
         mail( $to, $subject, $message_body );
 
-        if (mkdir("$email", 0777, true)) {
-            if (mkdir("$email/chats", 0777, true)) {
+        if (mkdir("$email", 0755, true)) {
+            if (mkdir("$email/chats", 0755, true)) {
                 header("location: success.php"); 
             }
         }

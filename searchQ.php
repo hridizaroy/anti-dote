@@ -39,6 +39,8 @@
         <link href="css/swiper.css" rel="stylesheet">
         <link href="css/magnific-popup.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+        
+        <link rel="icon" href="images/logo round.png">
 
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">

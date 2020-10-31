@@ -58,11 +58,11 @@
     //Getting users within radius
     if ($police) {
         $setLocation = $mysqli->query("UPDATE police SET latitude = $lat, longitude = $long WHERE email = '$email'");
-        $getUsers = $mysqli->query("SELECT * FROM civilians");
+        $getUsers = $mysqli->query("SELECT * FROM civilians WHERE active = 1");
     }
     else {
         $setLocation = $mysqli->query("UPDATE civilians SET latitude = $lat, longitude = $long WHERE email = '$email'");
-        $getUsers = $mysqli->query("SELECT * FROM police");
+        $getUsers = $mysqli->query("SELECT * FROM police WHERE active = 1 and verified = 1");
     }
 
     $users = array();

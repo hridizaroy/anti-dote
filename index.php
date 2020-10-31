@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-indigo.min.css" />
         <link href="css/login.css" rel="stylesheet">
         <link href="css/register.css" rel="stylesheet">
+        
+        <link rel="icon" href="images/logo round.png">
 
         <style>
         /*Hiding all the forms at Load*/

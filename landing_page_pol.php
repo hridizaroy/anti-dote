@@ -19,7 +19,7 @@
     header("location: landing_page_civ.php");
   }
 
-  if (!($_SESSION['active'] and $_SESSION['verified'])) {
+  else if (!($_SESSION['active'] and $_SESSION['verified'])) {
     header("location: landing_page.php");
   }
 

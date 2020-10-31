@@ -18,7 +18,7 @@
     header("location: landing_page_pol.php");
   }
 
-  if (!($_SESSION['active'])) {
+  else if (!($_SESSION['active'])) {
     header("location: landing_page.php");
   }
 

@@ -1,0 +1,9 @@
+[31-Oct-2020 16:10:53 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/pytzjzmvk8mz/public_html/antidote/getPublicChat.php on line 12
+[31-Oct-2020 16:10:53 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/pytzjzmvk8mz/public_html/antidote/getPublicChat.php on line 12
+[31-Oct-2020 16:10:54 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/pytzjzmvk8mz/public_html/antidote/getPublicChat.php on line 12
+[31-Oct-2020 16:10:54 UTC] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/pytzjzmvk8mz/public_html/antidote/getPublicChat.php on line 12
+[31-Oct-2020 16:52:07 UTC] PHP Notice:  Undefined index: police in /home/pytzjzmvk8mz/public_html/antidote/home.php on line 18
+[31-Oct-2020 16:52:07 UTC] PHP Notice:  Undefined index: active in /home/pytzjzmvk8mz/public_html/antidote/home.php on line 24
+[31-Oct-2020 16:52:07 UTC] PHP Notice:  Undefined index: police in /home/pytzjzmvk8mz/public_html/antidote/home.php on line 105
+[31-Oct-2020 16:52:07 UTC] PHP Notice:  Undefined index: police in /home/pytzjzmvk8mz/public_html/antidote/home.php on line 113
+[31-Oct-2020 16:52:07 UTC] PHP Notice:  Undefined index: police in /home/pytzjzmvk8mz/public_html/antidote/home.php on line 223

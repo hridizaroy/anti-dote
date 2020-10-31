@@ -79,7 +79,7 @@
       }
 
       //Getting users within radius
-      $getUsers = $mysqli->query("SELECT * FROM police");
+      $getUsers = $mysqli->query("SELECT * FROM police WHERE verified = 1 and active = 1");
 
       $users = array();
 
