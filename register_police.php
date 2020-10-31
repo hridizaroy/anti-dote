@@ -77,7 +77,7 @@ if(in_array($fileType, $allowTypes)){
     }
 }
 else {
-    $_SESSION['message'] = 'Please choose an image file.'."$fileName".'lol';
+    $_SESSION['message'] = 'Please choose an image file.';
     header("location: error.php");
 }
 
