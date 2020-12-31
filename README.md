@@ -2,6 +2,8 @@
 
 #Pitch-deck: https://drive.google.com/file/d/1sB3Qc-QVzHhSP6tz7TpWitJGWjMqQSbC/view?usp=sharing
 
+#Hosted on: https://www.createchrisvk.in/antidote/landing_page.php
+
 #There are 4 test accounts - 
 
 1. Email - foobar@gmail.com
